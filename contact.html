@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="home.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="formation.html">Formação</a>
+            <a class="cabecalho__menu__link" href="portfolio.html">Portfólio</a>
+            <a class="cabecalho__menu__link" href="contact.html">Contato</a>
+        </nav>
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo__contato">
+            <h2 class="apresentacao__conteudo__titulo">Contato</h2>
+            <form action="contact.html" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" required placeholder="Digite seu nome">
+            
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" required placeholder="Digite seu e-mail">
+            
+                <label for="msg">Mensagem:</label>
+                <textarea name="msg" id="msg" rows="5" required placeholder="Digite sua mensagem (ainda em desenvolvimento)"></textarea>
+            
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <div class="apresentacao__contact__links">
+            <h2 class="apresentacao__contact__links__subtitulo">Acesse minhas redes:</h2>
+            <a class="apresentacao__contact__links__navegacao" href="https://instagram.com/fernandofrejat">
+                <img src="./assets/instagram.png" alt="Imagem do instagram">
+                Instagram
+            </a>
+            <a class="apresentacao__contact__links__navegacao" href="https://linkedin.com/in/fernandofrejat">
+                <img src="./assets/linkedin.png" alt="Imagem do linkedin">
+                LinkedIn
+            </a>
+            <a class="apresentacao__contact__links__navegacao" href="https://github.com/ffrejat">
+                <img src="./assets/github.png" alt="Imagem do github">
+                GitHub
+            </a>
+        </div>
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvido por Fernando Frejat</p>
+    </footer>
+</body>
+</html>
